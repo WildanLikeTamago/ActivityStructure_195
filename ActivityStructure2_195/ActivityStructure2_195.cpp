@@ -35,4 +35,5 @@ int main() {
 	cout << "\nnama : " << mhs.nama;
 	cout << "\ndesa : " << mhs.alamat.desa;
 	cout << "\nkota : " << mhs.alamat.kota;
+	cout << "\numur : " << mhs.umur;
 }
