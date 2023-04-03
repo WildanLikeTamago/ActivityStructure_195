@@ -34,4 +34,13 @@ int main() {
 		cin >> mhs[i].umur;
 		cin.ignore(1, '\n');
 	}
+
+	for (int i = 0; i < 3; i++)
+	{
+		cout << "\nNim : " << mhs[i].nim;
+		cout << "\nnama : " << mhs[i].nama;
+		cout << "\ndesa : " << mhs[i].alamat.desa;
+		cout << "\nkota : " << mhs[i].alamat.kota;
+		cout << "\numur : " << mhs[i].umur;
+	}
 }
